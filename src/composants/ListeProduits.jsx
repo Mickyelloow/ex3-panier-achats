@@ -48,7 +48,7 @@ export default function ListeProduits(props) {
           le code de l'exercice de classe.
         */
           produits.map( 
-            produit =>  <li><Produit etatPanier={props.etatPanier} id={produit.id} nom={produit.nom} prix={produit.prix} /></li>
+            produit =>  <Produit etatPanier={props.etatPanier} id={produit.id} nom={produit.nom} prix={produit.prix} />
           )
         }
 
