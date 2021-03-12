@@ -29,9 +29,7 @@ export default function ListeProduits(props) {
         /******* Ex#3 - Étape G ********************************/ 
         // Modifier l'état des produits (initialisé ci-dessus avec useState) en utilisant le mutateur et le tableau tabProduits
         setProduits(tabProduits);
-        
-        console.log(tabProduits);
-      }
+        }
       getProduits();
     }, []
   ); // Ne modifiez surtout pas le tableau des dépendances à gauche : vous risquez un appel récurent sans fin de l'API Firebase !!!!
